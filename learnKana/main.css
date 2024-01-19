@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 300px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kana{
+    display: flex;
+    gap: 24px;
+}
+.letter{
+    font-size: 80px;
+    color: rgb(255, 6, 6);
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.pronunciation{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.btn{
+   width: 100px;
+   background: #000;
+   border-radius: 16px;
+   color: #FFF;
+   border: 0;
+   font-size: 20px;
+   padding: 8px 16px; 
+}
